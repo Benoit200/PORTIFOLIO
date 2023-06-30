@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 50px;
+    background-color: 0;
+    top: 0;
+    bottom: 0%;
+    
+}
+/*------CLASS HERO--------*/
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+/*------NAV--------*/
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    size: 45%;
+}
+/*------NAV UL LI and A-------*/
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;    
+}
+/*------NAV UL LI and A--------*/
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+/*------IMAGE--------*/
+img{
+    border-radius: 50%;
+    font-size: 20%;
+}
+/*------CLASS BENOIT and NAV--------*/
+.benoit nav{
+    size: 30%;
+    width: 200px;
+}
+/*------CLASS BENOIT2--------*/
+.benoit2{
+    top: 200px;
+    font-size: 300px;
+}
+/*------NAV UL LI and a:hover--------*/
+nav ul li a:hover{
+    color: red;
+}
+/*------CLASS DETEL--------*/
+.detel{
+    margin-left: 8%;
+    margin-top: 8% ;
+}
+/*------CLASS DETEL and H1--------*/
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+/*------SPAN--------*/
+span{
+    color: orangered;
+}
+/*------CLASS DETEL and P--------*/
+.detel p{
+   color: #555;
+   line-height: 22px;
+}
+/*------CLASS DETEL and A--------*/
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 35%;
+}
+/*------CLASS DETEL1 and a:hover--------*/
+.detel a:hover{
+    color: black;
+    background-color: coral;
+    
+}
+/*------CLASS DETEL1--------*/
+.detel1{
+    display: flex;
+}
+/*------CLASS BODY--------*/
+.boy{
+    background-color: green;
+    position: right;
+}
+/*------CLASS PHOTO--------*/
+.photo{
+    right: 80%;
+}
+/*------CLASS ABOUT--------*/
+.about{
+    text-align: center;
+}
+/*------H1--------*/
+h1{
+    color: blue;
+}
+/*------CLASS BENOIT2--------*/
+.benoit2{
+    width: 200px; 
+    height: 290px;  
+    margin-right: 50px;
+}
+/*------CLASS CO A and I--------*/
+
+.co a i{
+    justify-content: space-between;
+    justify-self: unset;
+    align-items: center;
+    left: 3px;
+    right: 3px;
+}
+/*------ID HERO--------*/
+#co{
+    margin-left: 70px;
+    display: inline-block;
+
+    /*font-size: 30px; 
+    padding-left: 1%;
+    display: flex;
+    margin-left: 60px;
+    justify-content: center;
+    justify-content: space-around;*/
+}
+/*------ID CO A and I--------*/
+#co a i{
+    padding: 15px;
+    font-size: 40px;
+     color: black;
+     align-items: center;
+}
+/*------FOR ANIMATION--------*/
+    @keyframes mymove {
+        from {background-color: red;}
+        to {background-color: blue;}
+      }
+      /*------CLASS M--------*/
+      .M{
+        float: right;
+        font-size: 400px;
+        top: 400px;
+        visibility: 500px;
+      }
+      /*-------CLASS DETEL1-------*/
+      .detel1{
+    align-items: center;
+      }
+      /*------ID MYDIV-------*/
+      #myDIV{
+        background-color: deeppink;
+        left: 300px;
+        right: 300px;
+      }
+      #co a i:hover{
+        color: blue;
+      }
+      /*------FOOTER--------*/
+      footer{
+        left: 320px;
+        right: 330px;
+      }
+      @media screen and (min-width:600px) {
+        
+      }
+
